@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cookie&family=Dancing+Script:wght@400..700&family=Delius+Swash+Caps&family=Flavors&family=Homemade+Apple&family=Londrina+Shadow&family=Oregano:ital@0;1&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="mainContainer">
+            <div class="container1">
+                <div id="nav">
+                    <i id="icon1" class="ri-cloud-fill"></i>
+                    <input id="input1" type="text" value="London" placeholder="Enter your city"
+                        name="  Enter your city">
+                </div>
+                <div id="loc">
+                    <i id="locI" class="ri-map-pin-line"></i>
+                    <h3>Location</h3>
+                </div>
+                <div id="mid1">
+                    <div id="center1">
+                        <div id="img">
+                        </div>
+                        <h1 id="temp"><sup id="sup"></sup></h1>
+                        <h3 id="weather"></h3>
+                        <h3 id="time"></h3>
+                    </div>
+                </div>
+                <div id="b1">
+                    <div id="bottom">
+                        <div id="AQ">
+                            <h1> <i class="ri-windy-fill"></i></h1>
+                            <h3 id="wind"></h3>
+                            <h3 id="hum"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div id="day1" class="day">
+                    <div class="date" id="date1"></div>
+                    <div id="image1">
+                    </div>
+                    <div class="temp2" id="temp1"></div>
+                    <div class="condi2" id="condi1"></div>
+                    <div class="wind2" id="wind1"></div>
+                </div>
+                <div id="day2" class="day">
+                    <div class="date" id="date2"></div>
+                    <div id="image2"></div>
+                    <div class="temp2" id="temp2"></div>
+                    <div class="condi2" id="condi2"></div>
+                    <div class="wind2" id="wind2"></div>
+                </div>
+                <div id="day3" class="day">
+                    <div class="date" id="date3"></div>
+                    <div id="image3"></div>
+                    <div class="temp2" id="temp3"></div>
+                    <div class="condi2" id="condi3"></div>
+                    <div class="wind2" id="wind3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
