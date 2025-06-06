@@ -1,8 +1,8 @@
 let arr = [
-    { img: "./images/sunny.png" },
-    { img: "./images/rain.png" },
-    { img: "./images/cloudy.png" },
-    { img: "./images/thunder.png" }
+    { img: "images/sunny.png" },
+    { img: "images/rain.png" },
+    { img: "images/cloudy.png" },
+    { img: "images/thunder.png" }
 ];
 
 let city = document.querySelector("#input1");
